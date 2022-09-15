@@ -33,7 +33,7 @@ if m>=3:
         for j in range(m):
             if j>=i:
                 suma+=a[i][j]
-                t_numero=len(str(a[i][j]))
+            t_numero=len(str(a[i][j]))
             print("{}{}".format(a[i][j],(tu_numero-t_numero+2)*" "),end="")
         print("")
     print("\nLa suma de los elementos en la matriz diagonal superior es: ",suma,"\n")
